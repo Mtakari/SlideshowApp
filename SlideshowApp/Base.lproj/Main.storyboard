@@ -20,7 +20,6 @@
                                 <rect key="frame" x="20" y="0.0" width="374" height="550"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="550" id="5YC-F6-tmy"/>
-                                    <constraint firstAttribute="width" constant="310" id="9oM-xw-e8B"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="dPJ-ie-5Ah">
@@ -58,10 +57,9 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr8-Oz-ZSX">
-                                <rect key="frame" x="20" y="0.0" width="374" height="319"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zr8-Oz-ZSX">
+                                <rect key="frame" x="192" y="0.0" width="30" height="550"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="N42-zq-cDb"/>
                                     <constraint firstAttribute="height" constant="550" id="fn3-Yf-vSj"/>
                                 </constraints>
                                 <connections>
@@ -72,16 +70,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xNJ-E2-EpU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IRD-xr-FOl"/>
+                            <constraint firstItem="xNJ-E2-EpU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="A84-ve-N3j"/>
+                            <constraint firstItem="xNJ-E2-EpU" firstAttribute="centerX" secondItem="Zr8-Oz-ZSX" secondAttribute="centerX" id="OdV-wG-N5J"/>
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XUD-eI-Fhf"/>
-                            <constraint firstItem="Zr8-Oz-ZSX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bxt-8b-TXH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xNJ-E2-EpU" secondAttribute="trailing" constant="20" id="cjy-er-KQV"/>
+                            <constraint firstItem="Zr8-Oz-ZSX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k9W-DV-3la"/>
                             <constraint firstItem="Zr8-Oz-ZSX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kTu-0h-HY4"/>
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="msw-GM-wbk"/>
                             <constraint firstItem="dPJ-ie-5Ah" firstAttribute="top" secondItem="xNJ-E2-EpU" secondAttribute="bottom" constant="72" id="neJ-HS-2eR"/>
                             <constraint firstItem="dPJ-ie-5Ah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="obT-1h-6Ar"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dPJ-ie-5Ah" secondAttribute="bottom" constant="84" id="xUi-uH-gB0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zr8-Oz-ZSX" secondAttribute="trailing" constant="20" id="yle-nC-bDh"/>
                         </constraints>
                     </view>
                     <connections>
