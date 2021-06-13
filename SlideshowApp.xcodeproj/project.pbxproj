@@ -13,6 +13,7 @@
 		6B258AB7267359CD009F5355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B258AB5267359CD009F5355 /* Main.storyboard */; };
 		6B258AB9267359CE009F5355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B258AB8267359CE009F5355 /* Assets.xcassets */; };
 		6B258ABC267359CE009F5355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B258ABA267359CE009F5355 /* LaunchScreen.storyboard */; };
+		6B258AC526735BD5009F5355 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B258AC426735BD5009F5355 /* ExpansionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6B258AB8267359CE009F5355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B258ABB267359CE009F5355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B258ABD267359CE009F5355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B258AC426735BD5009F5355 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpansionViewController.swift; path = ../../ExpansionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6B258AAF267359CD009F5355 /* AppDelegate.swift */,
 				6B258AB1267359CD009F5355 /* SceneDelegate.swift */,
 				6B258AB3267359CD009F5355 /* ViewController.swift */,
+				6B258AC426735BD5009F5355 /* ExpansionViewController.swift */,
 				6B258AB5267359CD009F5355 /* Main.storyboard */,
 				6B258AB8267359CE009F5355 /* Assets.xcassets */,
 				6B258ABA267359CE009F5355 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B258AC526735BD5009F5355 /* ExpansionViewController.swift in Sources */,
 				6B258AB4267359CD009F5355 /* ViewController.swift in Sources */,
 				6B258AB0267359CD009F5355 /* AppDelegate.swift in Sources */,
 				6B258AB2267359CD009F5355 /* SceneDelegate.swift in Sources */,
