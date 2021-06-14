@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var moveButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var choiceButton: UIButton!
     
     var number: Int! = 0
     
@@ -28,14 +31,21 @@ class ViewController: UIViewController {
     }
         
     
-    
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let expansionViewController:ExpansionViewController = segue.destination as! ExpansionViewController
     
         expansionViewController.getimage = imageView.image!
     
     }
+    
+    @IBAction func bigImage(_ sender: Any) {
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+        }
+    }
+    
+    
     
     @objc func updateTimer(_ timer: Timer){
         number += 1
@@ -52,6 +62,7 @@ class ViewController: UIViewController {
             number = 0
         }
         imageView.image = (imagesBox[number])
+        
     }
     
     @IBAction func backButton(_ sender: Any) {
@@ -60,15 +71,22 @@ class ViewController: UIViewController {
             number = imagesBox.count - 1
         }
         imageView.image = (imagesBox[number])
-        print("imagesBox\(imagesBox)")
+        
     }
     
     @IBAction func choiceButton(_ sender: Any) {
         if self.timer == nil {
             self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateTimer(_:)), userInfo: nil, repeats: true)
+            moveButton.isEnabled = false
+            backButton.isEnabled = false
+            choiceButton.setTitle("停止", for: .normal)
+            
         }else{
             self.timer.invalidate()
             self.timer = nil
+            moveButton.isEnabled = true
+            backButton.isEnabled = true
+            choiceButton.setTitle("再生", for: .normal)
         }
 
     }
