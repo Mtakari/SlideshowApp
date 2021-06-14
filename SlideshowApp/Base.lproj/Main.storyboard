@@ -74,7 +74,6 @@
                                 <rect key="frame" x="20" y="0.0" width="335" height="550"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="6By-FJ-iA6"/>
-                                    <constraint firstAttribute="width" constant="310" id="Hi2-VK-4wg"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="550" id="Ma5-QT-nfD"/>
                                     <constraint firstAttribute="height" constant="550" id="fn3-Yf-vSj"/>
                                 </constraints>
@@ -95,10 +94,8 @@
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ItQ-Ou-HhE"/>
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XUD-eI-Fhf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dPJ-ie-5Ah" secondAttribute="trailing" constant="20" id="bY6-l2-jih"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zr8-Oz-ZSX" secondAttribute="trailing" constant="20" id="cpu-nk-KbK"/>
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="leading" secondItem="dPJ-ie-5Ah" secondAttribute="leading" id="gn6-Yz-4SC"/>
                             <constraint firstItem="dPJ-ie-5Ah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k3x-N0-Jyb"/>
-                            <constraint firstItem="Zr8-Oz-ZSX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kSK-vS-qB1"/>
                             <constraint firstItem="Zr8-Oz-ZSX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kTu-0h-HY4"/>
                             <constraint firstItem="xNJ-E2-EpU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="msw-GM-wbk"/>
                             <constraint firstItem="dPJ-ie-5Ah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sU2-Mm-BLE"/>

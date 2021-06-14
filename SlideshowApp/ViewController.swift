@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         if self.timer != nil {
             self.timer.invalidate()
             self.timer = nil
+            choiceButton.setTitle("再生", for: .normal)
         }
     }
     
