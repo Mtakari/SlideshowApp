@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var timer: Timer!
     
-    let imagesBox = [UIImage(named: "img1")! , UIImage(named: "img2")! , UIImage(named: "img3")!]
+    let imagesBox = [UIImage(named: "images-1.jpg")! , UIImage(named: "images.jpg")! , UIImage(named: "images-2.jpg")!]
     
     override func viewDidLoad() {
         super.viewDidLoad()
