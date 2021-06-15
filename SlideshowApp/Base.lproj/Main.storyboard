@@ -21,7 +21,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="550" id="5YC-F6-tmy"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="550" id="9xj-zb-qMf"/>
-                                    <constraint firstAttribute="width" constant="310" id="cuL-ZN-VR9"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="dPJ-ie-5Ah">

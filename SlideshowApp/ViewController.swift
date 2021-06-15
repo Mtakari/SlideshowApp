@@ -43,6 +43,8 @@ class ViewController: UIViewController {
             self.timer.invalidate()
             self.timer = nil
             choiceButton.setTitle("再生", for: .normal)
+            moveButton.isEnabled = true
+            backButton.isEnabled = true
         }
     }
     
